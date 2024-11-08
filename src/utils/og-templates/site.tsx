@@ -6,7 +6,7 @@ export default async () => {
   return satori(
     <div
       style={{
-        background: "#13151A",
+        background: "#fefbfb",
         width: "100%",
         height: "100%",
         display: "flex",
