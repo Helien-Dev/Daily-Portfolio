@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Alvaro Avila",
   profile: "https://sqweb.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Daily",
+  title: "Daily 📝",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -36,18 +36,6 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
-    active: true,
-  },
-  {
-    name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
     active: true,
   },
   {
