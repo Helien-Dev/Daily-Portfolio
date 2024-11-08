@@ -1,0 +1,26 @@
+# wrangler.toml
+name = "daily-portfolio"
+type = "javascript"
+
+# Define the compatibility date
+compatibility_date = "2024-11-08"
+
+# Specify environment configuration
+[env.production]
+node_compatibility = true
+
+# Use Node.js version that meets the requirement
+# According to the log, you need Node.js ^18.18.0
+[build]
+command = "npm install && npm run build"
+node_version = "18.18.0"
+
+# Add entry point if needed
+main = "./dist/index.js"
+
+# Define upload configurations if needed
+[[deployments.preview]]
+branch = "main"
+
+[[deployments.production]]
+branch = "main"
