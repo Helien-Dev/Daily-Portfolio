@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://dailydev.lat/", // replace this with your deployed domain
   author: "Alvaro Avila",
   profile: "https://sqweb.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Daily 📝",
+  title: "DailyDev",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -13,8 +13,8 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    url: "https://github.com/Helien-Dev/Daily-Portfolio/tree/main/src/content/blog",
+    text: "Sugerir Cambios",
     appendFilePath: true,
   },
 };
@@ -34,7 +34,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/Helien-Dev",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -46,7 +46,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:alvaraaviladev@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     active: false,
   },
